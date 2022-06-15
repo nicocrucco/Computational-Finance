@@ -1,4 +1,4 @@
-# Computational-Finance
+# Computational Finance
 Computational Finance exam 
 
 
