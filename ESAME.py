@@ -120,19 +120,7 @@ def do_task(**keywords):
         fp.write("%6.7f  %10.7f +/- %8.7f   %8.7s \n"%(el,put,ePut,N))
     
     
-    #fp.write(" %6.3f  %8.4f +/- %8.4f  %8.4f  %s\n" %(n*Dt, put, ePut, PUT[n], Opt) )
-    
-    #plt.errorbar(t, x, yerr=y, fmt='o', color='r', label="MC put", ms=3)
-    #plt.scatter(t, PUT, marker="^", label="put")
-    #plt.title("$E[\, D(0,t_m) [ P(t_m, T)-k]^+\,]$\n $T=%4.1f, \gamma=%4.2f, \sigma=%4.2f, \kappa=%4.2f, N=2^{%d}$" %(T, gamma, sigma, strike, nr))
-    #plt.ylabel("Option Price")
-    #plt.xlabel("$t_m$")
-    #plt.legend(loc="best")
-    #plt.savefig('hw_put.eps', format='eps', dpi=9600)
-    
-
-    #plt.show()
-
+   
     #°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 
 
