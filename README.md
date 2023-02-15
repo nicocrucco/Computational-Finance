@@ -48,10 +48,10 @@ To perform the simulation it has to be executed:
 ```bash
 $ python run exam_code.py
 ```
- You have to digit -help to see the usage function and the parameters that can be setted to perform different simulations:
+ To inspect the ```usage``` function and the parameters that can be setted to perform different simulations:
  
 ```bash
-$ python run exam_code.py --usage
+$ python run exam_code.py -help
 ```
 
 
