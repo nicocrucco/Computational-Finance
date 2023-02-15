@@ -31,31 +31,27 @@ results for every k and N=500000 (number of repetitions).
 Firstly the repository has to be cloned and before doing any operation you should move into the directory just created using the following commands:
 
 ```bash
- $ git clone 
- $ cd 
+ $ git clone https://github.com/nicocrucco/Computational-Finance.git
+ $ cd Computational-Finance
 ```
 
-The open source packages used in this project and necessary to start the simulation are in `requirements.txt` file and you can install them as following
+The open source packages used in this project and necessary to start the simulation are in `requirements.txt` file and you can install them as following:
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-All the code must be executed inside a python environment, thus it could be necessary to add `python` before the instructions shown.
-
-
 ## Usage
 
-The final code to execute is ESAME.py. It has to be executed with all the modules in the same folder. When ESAME.py is executed from terminal, you have to digit -help to see the usage function
-```python
-import foobar
+To perform the simulation it has to be executed:
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+$ python run exam_code.py
 ```
+ You have to digit -help to see the usage function and the parameters that can be setted to perform different simulations:
+ 
+```bash
+$ python run exam_code.py --usage
+```
+
+
