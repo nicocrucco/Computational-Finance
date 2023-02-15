@@ -49,12 +49,12 @@ To perform the simulation it has to be executed:
 ```bash
 $ python run exam_code.py
 ```
- To inspect the ```usage``` function and the parameters that can be setted to perform different simulations:
+ To inspect the ```usage``` function and the parameters that can be set to perform different simulations:
  
 ```bash
 $ python run exam_code.py --help
 ```
-Parameters that can be setted: 
+Parameters that can be set: 
 ```bash
 n : number of MC trajectories, defaults to 5000 
 tn : swaption maturity date, defaults to 2
