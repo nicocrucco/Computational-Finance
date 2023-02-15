@@ -24,13 +24,25 @@ results for every k and N=500000 (number of repetitions).
 |0.063577| 500000 |0.89144 |0.8912 ± 0.0008| 0.8912±0.0017| 0.89141±0.0012|
 |-0.03642| 500000 |0| 0.0 ±0.0| 0.0±0.0| 0.0±0.0|
 
-## Installation
+<!-- HOW TO INSTALL -->
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+<h2 id="how-to-install"> How to install</h2>
+
+Firstly the repository has to be cloned and before doing any operation you should move into the directory just created using the following commands:
 
 ```bash
-pip install foobar
+ $ git clone 
+ $ cd 
 ```
+
+The open source packages used in this project and necessary to start the simulation are in `requirements.txt` file and you can install them as following
+
+```bash
+$ pip install -r requirements.txt
+```
+
+All the code must be executed inside a python environment, thus it could be necessary to add `python` before the instructions shown.
+
 
 ## Usage
 
