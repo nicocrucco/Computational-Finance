@@ -1,4 +1,5 @@
 ## About this project 
+
 This is the project for the Computatuional Finance Exam. The exercise's goal is to value a swaption analytically (Jamshidian Approximation) and using a MonteCarlo simulation (with three different numerairs).
 
 Let $t_n = 2$ Years and $p = 20$ with $t_n-t_{n-1} = 1$ Years.
@@ -51,7 +52,15 @@ $ python run exam_code.py
  To inspect the ```usage``` function and the parameters that can be setted to perform different simulations:
  
 ```bash
-$ python run exam_code.py -help
+$ python run exam_code.py --help
+```
+Parameters that can be setted: 
+```bash
+n : number of MC trajectories, defaults to 5000 
+tn : swaption maturity date, defaults to 2
+p : final IRS payment, defaults to 20
+gamma : the gamma paramter of the HW model, defaults to .5
+sigma : the vol paramter of the HW model, defaults to .05
 ```
 
 
