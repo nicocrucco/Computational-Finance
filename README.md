@@ -1,4 +1,4 @@
-## About this project 
+# About this project 
 
 This is the project for the Computatuional Finance Exam. The exercise's goal is to value a swaption analytically (Jamshidian Approximation) and using a MonteCarlo simulation (with three different numerairs).
 
