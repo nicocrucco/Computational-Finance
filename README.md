@@ -1,6 +1,6 @@
 # About this project 
 
-This is the project for the Computatuional Finance Exam. The exercise's goal is to value a swaption analytically (Jamshidian Approximation) and using a MonteCarlo simulation (with three different numerairs).
+This is the project for the Computatuional Finance Exam. The exercise's goal is to value a swaption analytically (Jamshidian Approximation) and using a MonteCarlo simulation (with three different numerairs) and then compare these results.
 
 Let $t_n = 2$ Years and $p = 20$ with $t_n-t_{n-1} = 1$ Years.
 1. Compute the swap rate $R_p(0, t_n)$ that makes the IRS fair.
