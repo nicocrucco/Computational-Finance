@@ -2,7 +2,7 @@
 
 <p>This is the project for the Computatuional Finance Exam. The exercise's goal is to price a swaption performing a Monte Carlo simulation with three different numerairs and compare these results with the analytical computation obtained leveraging the Jamshidian Approximation.</p>
 
-<p>This is the trace:</p>
+<p></p>
 
 Let $t_n = 2$ Years and $p = 20$ with $t_n-t_{n-1} = 1$ Years.
 1. Compute the swap rate $R_p(0, t_n)$ that makes the IRS fair.
